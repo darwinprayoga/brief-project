@@ -36,7 +36,7 @@ export default function Home() {
                 <div className='absolute bg-black/40 inset-0 flex justify-center items-center text-white text-center'>
                     <span className='items-center p-6 md:p-40'>
                         <h3 className='mb-4'>Technology</h3>
-                        <p className='leading-relaxed'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <p className='leading-relaxed text-white'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                     </span>
                 </div>
 

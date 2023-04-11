@@ -14,7 +14,7 @@
 
   @font-face {
     font-family: 'Poppins';
-    src: local('Poppins'), url('/Poppins-Bold.ttf') format('ttf');
+    src: local('Poppins'), url('/Poppins-bfont-extrabold.ttf') format('ttf');
   }
 
     html {
@@ -26,15 +26,15 @@
     }
 
     h1 {
-      @apply text-3xl md:text-4xl font-bold
+      @apply text-3xl md:text-4xl font-extrabold
     }
 
     h2 {
-      @apply text-2xl md:text-3xl font-bold
+      @apply text-2xl md:text-3xl font-extrabold
     }
   
     h3 {
-      @apply text-xl md:text-2xl font-bold
+      @apply text-xl md:text-2xl font-extrabold
     }
 
     sub {
@@ -50,7 +50,7 @@
     }
   
     p {
-      @apply text-xs md:text-sm font-semibold
+      @apply text-xs md:text-sm font-semibold text-[#9e9e9e]
     }
 
     i {
@@ -58,7 +58,7 @@
     }
   
     b {
-      @apply font-bold text-xs md:text-sm tracking-wider
+      @apply font-extrabold text-xs md:text-sm tracking-wider
     }
   
     main {
