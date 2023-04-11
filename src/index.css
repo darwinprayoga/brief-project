@@ -12,12 +12,17 @@
 
 @layer base {
 
+  @font-face {
+    font-family: 'Poppins';
+    src: local('Poppins'), url('/Poppins-Bold.ttf') format('ttf');
+  }
+
     html {
         font-family: Poppins, system-ui, sans-serif;
     }
 
     body {
-        @apply bg-white tracking-wide select-none scroll-smooth
+        @apply bg-white tracking-wide select-none scroll-smooth font-sans
     }
 
     h1 {
