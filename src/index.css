@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    
+    .pointer {
+        @apply cursor-auto md:cursor-pointer
+      }
+      
+}
+
+@layer base {
+
+    html {
+        font-family: Poppins, system-ui, sans-serif;
+    }
+
+    body {
+        @apply bg-white tracking-wide select-none scroll-smooth
+    }
+
+    h1 {
+      @apply text-3xl md:text-4xl font-semibold
+    }
+
+    h2 {
+      @apply text-2xl md:text-3xl font-semibold
+    }
+  
+    h3 {
+      @apply text-xl md:text-2xl font-semibold
+    }
+
+    sub {
+      @apply text-[10px] md:text-xs
+    }
+
+    li {
+      @apply list-inside text-xs md:text-sm
+    }
+
+    a {
+      @apply pointer text-blue-600 underline text-xs md:text-sm
+    }
+  
+    p {
+      @apply text-xs md:text-sm
+    }
+
+    i {
+      @apply text-xs md:text-sm
+    }
+  
+    b {
+      @apply font-bold text-xs md:text-sm tracking-wider
+    }
+  
+    main {
+      @apply mx-auto max-w-screen-md
+    }
+  
+    menu {
+      @apply flex m-0 p-0 justify-evenly items-center
+    }
+  
+    span {
+      @apply flex flex-col m-0 p-0 justify-start items-start
+    }
+  
+    button {
+      @apply pointer focus:outline-none
+    }
+  
+    input {
+      @apply focus:outline-none
+    }
+
+}
